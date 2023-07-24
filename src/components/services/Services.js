@@ -52,6 +52,11 @@ function Services() {
                     description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                 />
             </div>
+
+        <div className='btn_section'>
+            <button>See All our Services</button>
+        </div>
+            
            
     
     </div>

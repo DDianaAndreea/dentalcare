@@ -28,6 +28,21 @@
     display: flex;
     justify-content: space-evenly
 }
+.btn_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.btn_section>button{
+    background-color: #0191fa;
+    border: 0.1px ;
+    border-radius: 7%;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+}
 
 @media (width <= 550px) {
     .section_1,.section_2{
