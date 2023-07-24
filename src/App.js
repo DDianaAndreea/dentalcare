@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import RowCardsSection from './components/row-cards-section/RowCardsSection';
 import Appointement from './components/appointment-section/Appointement';
+import Services from './components/services/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <RowCardsSection />
       <Appointement />
+      <Services />
     </div>
   );
 }
