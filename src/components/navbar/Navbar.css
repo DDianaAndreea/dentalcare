@@ -1,0 +1,58 @@
+.navbar{
+    position: sticky;
+    top:0;
+    display: flex;
+    background-color: #edf8ff;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    z-index:1;
+}
+.nav_logo{
+    display: flex;
+    color:#5db2f0;
+    font-family: "Lucida Handwriting", cursive;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu>p{
+    margin-right: 15px;
+    font-size: 14px;
+    color: lightslategray;
+}
+
+.nav_menu :first-child{
+    color: #6ec1fe;
+}
+
+.nav_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    border: 0.5px solid #bbe2ff;
+    border-radius: 18%;
+    background-color: white;
+    padding: 4px;
+}
+
+.phone_icon{
+    height: 22px;
+    color: #37d2c7;
+    border: 1px solid #37d2c7;
+    border-radius: 50%;
+    padding: 1.5px;
+    background-color: rgb(240, 237, 237);
+    margin-right: 2px;
+}
+.nav_right>p{
+    font-weight: bold;
+    color: gray;
+}
