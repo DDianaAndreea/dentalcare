@@ -1,0 +1,89 @@
+    .home_banner{
+    display: flex ;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edf8ff;
+    padding-left: 20px;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .left>h3{
+        font-family: 'El Messiri', sans-serif;
+        font-size:50px;
+        color: #091d3f;
+    }
+    .left>p{
+        font-family: 'Alata', sans-serif;
+        color: gray;
+        font-size: 25px;
+    }
+    .right{
+        display: flex;
+    }
+    .appointment{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    .appointment>button{
+        background-color: #0191fa;
+        border: 0.1px;
+        border-radius: 7%;
+        color:white;
+        font-family: 'Alata', sans-serif;
+        box-shadow: 0px 3px lightblue;
+    }
+    .appointment>button:hover{
+        cursor: pointer;
+    }
+    
+    .play{
+        width: 35px;
+        color: #0093fe;
+        padding-left: 20px;
+    }
+    .play:hover{
+        cursor: pointer;
+    }
+
+
+@media (width <= 500px) {
+    .right>img{
+        height: 100px;
+        width: 130px;
+    }
+    .left>h3{
+        font-size: 25px;
+    }
+    .left>p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:900px) and (min-width:500px) {
+    .right>img{
+        height: 320px;
+        width: 370px;
+    }
+    .left>h3{
+        font-size: 35px;
+    }
+    .left>p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 900px) {
+    .right>img{
+        height: 540px;
+        width: 651px;
+    }
+}
