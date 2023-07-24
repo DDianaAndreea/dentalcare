@@ -1,0 +1,16 @@
+.row{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    display: absolute;
+}
+
+
+@media (width <= 1050px) {
+    .row{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+}
