@@ -12,21 +12,21 @@ function RowCardsSection() {
         Icon={MicrophoneIcon}
         iconColor='#48d6cb'
         title='Free Consultation'
-        desciption='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       />
       
       <Card 
         Icon={AcademicCapIcon}
         iconColor='#1c4891'
         title='Expert Dentist'
-        desciption='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       />
 
       <Card 
         Icon={SparklesIcon}
         iconColor='#0093fe'
         title='Over 4.9 User Rating'
-        desciption='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+        description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
       />
 
     </div>
