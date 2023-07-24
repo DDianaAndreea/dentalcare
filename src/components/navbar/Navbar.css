@@ -11,10 +11,14 @@
 }
 .nav_logo{
     display: flex;
-    color:#5db2f0;
+    color:#458ee0;
     font-family: "Lucida Handwriting", cursive;
-    margin-left: 15px;
+    margin-left: 20px;
     align-items: center;
+}
+
+.nav_logo:hover{
+    cursor: pointer;
 }
 
 .nav_menu{
@@ -23,13 +27,17 @@
 }
 
 .nav_menu>p{
-    margin-right: 15px;
+    margin-right: 20px;
     font-size: 14px;
     color: lightslategray;
 }
+.nav_menu:hover{
+    cursor: pointer;
+}
 
 .nav_menu :first-child{
-    color: #6ec1fe;
+    color: #0066ff;
+    font-weight: 600;
 }
 
 .nav_right{
@@ -37,9 +45,9 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 15px;
-    border: 0.5px solid #bbe2ff;
+    /* border: 0.5px solid #bbe2ff; */
     border-radius: 18%;
-    background-color: white;
+    /* background-color: white; */
     padding: 4px;
 }
 
@@ -52,7 +60,13 @@
     background-color: rgb(240, 237, 237);
     margin-right: 2px;
 }
+
+.phone_icon:hover{
+    cursor: pointer;
+}
+
 .nav_right>p{
     font-weight: bold;
     color: gray;
+    padding-left: 3px;
 }
