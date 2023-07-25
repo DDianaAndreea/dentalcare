@@ -4,3 +4,15 @@
 *{
   margin: 0;
 }
+
+.hr{
+  background-color:#edf8ff ;
+}
+
+hr{
+  height: 1px;
+  width: 96%;
+  border-width: 0;
+  background-color: #00A4BD;
+  margin-left: 2%;
+}

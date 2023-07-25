@@ -10,6 +10,9 @@ function App() {
   return (
     <div className="app">
       <Navbar />
+      <div className='hr'>
+        <hr/>
+      </div>
       <Home />
       <RowCardsSection />
       <Appointement />

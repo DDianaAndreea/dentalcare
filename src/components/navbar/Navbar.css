@@ -8,6 +8,7 @@
     padding-bottom: 15px;
     width: 100%;
     z-index:1;
+    padding-left: 5px;
 }
 .nav_logo{
     display: flex;
@@ -69,4 +70,49 @@
     font-weight: bold;
     color: gray;
     padding-left: 3px;
+    padding-right: 15px;
+}
+
+.btn_menu{
+    display: none;
+}
+
+.menu_icon{
+    height: 22px;
+    color: #37d2c7;
+    display: none;
+}
+
+@media (max-width:800px) and (min-width:400px) {
+    .btn_menu{
+    display: flex;
+    align-items: center;
+    }
+    .nav_menu{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+        margin-left: 20px;
+    }
+}
+
+@media(width<=400px){
+    .nav_right{
+        display: none;
+    }
+    .nav_menu{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+        margin-left: 20px;
+    }
+    .btn_menu{
+        display: flex;
+        align-items: center;
+    }
+    .navbar{
+        justify-content: flex-start;
+    }
 }

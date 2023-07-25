@@ -1,10 +1,13 @@
 import React from 'react'
 import  './Navbar.css'
-import {PhoneIcon} from '@heroicons/react/24/solid'
+import {Bars3Icon, PhoneIcon} from '@heroicons/react/24/solid'
 
 function Navbar() {
   return (
     <div className='navbar'>
+      <div className='btn_menu'>
+        < Bars3Icon className='menu_icon'/>
+      </div>
       <div className='nav_logo'> 
         <p>DentalCare</p>
       </div>
@@ -20,7 +23,6 @@ function Navbar() {
         <PhoneIcon className='phone_icon'/>
         <p> 237-565-4586</p>
       </div>
-
     </div>
   )
 }
