@@ -14,6 +14,7 @@
 
 .card:hover{
     border: 2px solid lightblue;
+    cursor: pointer;
 }
 
 .icon{
@@ -34,4 +35,27 @@
     text-align: center;
     color: gray;
 
+}
+
+@media (width <= 900px) {
+    .card {
+        max-width: 200px;
+        border: 1px solid lightblue;
+        border-radius: 6%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin-bottom: 10px;
+        max-height: 200px;
+        box-shadow: 5px 8px rgba(211, 211, 211, 0.123);
+    }
+    .card>h3 {
+        font-size: 20px;
+    }
+    .card>p{
+        font-size: 14px;
+    }
 }

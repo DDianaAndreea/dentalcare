@@ -8,7 +8,7 @@
 }
 
 
-@media (width <= 1050px) {
+@media (width <= 680px) {
     .row{
         margin-top: 10px;
         flex-direction: column;

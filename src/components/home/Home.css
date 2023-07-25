@@ -77,9 +77,19 @@
         font-size: 35px;
     }
     .left>p{
-        font-size: 14px;
+        font-size: 17px;
     }
 }
+
+@media (max-width:995px) and (min-width:900px) {
+    .left>h3{
+        font-size: 35px;
+    }
+    .left>p{
+        font-size: 20px;
+    }
+}
+
 
 @media (min-width: 900px) {
     .right>img{
