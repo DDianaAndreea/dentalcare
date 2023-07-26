@@ -1,0 +1,38 @@
+.review_card{
+    width: 225px;
+    height: 190px;
+    min-width: 225px;
+    min-height: 190px;
+    border: 1px solid lightgray;
+    border-radius: 6%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 5px 8px rgba(211, 211, 211, 0.123);
+    display: relative;
+
+}
+
+.user_icon{
+    max-width: 35px;
+}
+
+.name{
+    color: #0585fe;
+}
+
+.review{
+    font-style: italic;
+    text-align: center;
+}
+
+.stars{
+    display: flex;
+    flex-direction: row;
+    color: #ffcf56;
+}
+

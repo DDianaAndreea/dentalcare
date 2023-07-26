@@ -6,6 +6,7 @@ import RowCardsSection from './components/row-cards-section/RowCardsSection';
 import Appointement from './components/appointment-section/Appointement';
 import Services from './components/services/Services';
 import Description from './components/description-section/Description';
+import ReviewSection from './components/review-section/ReviewSection';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Appointement />
       <Services />
       <Description />
+      <ReviewSection />
     </div>
   );
 }
