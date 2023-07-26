@@ -8,6 +8,7 @@ import Services from './components/services/Services';
 import Description from './components/description-section/Description';
 import ReviewSection from './components/review-section/ReviewSection';
 import CallToAction from './components/call-to-action-section/CallToAction';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Description />
       <ReviewSection />
       <CallToAction />
+      <Footer />
     </div>
   );
 }

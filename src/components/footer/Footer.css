@@ -1,0 +1,35 @@
+.footer{
+    margin-top:80px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.address_item>svg{
+    max-height: 20px;
+    padding-right: 5px;
+    color: #018cf1;
+}
+
+.address_item{
+    display: flex;
+    min-width: 190px;
+}
+
+.address_item>p,.company, .service{
+    color: whitesmoke;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-container{
+    background-color: #091d3f;
+}
+.footer-container>p{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+}
