@@ -1,0 +1,37 @@
+h3{
+    font-family: 'El Messiri', sans-serif;
+    color: #091d3f;
+    font-size: 35px;
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    background: aliceblue;
+    border: 0.1px solid lightblue;
+    border-radius: 2%;
+    height: 350px;
+    padding-inline: 54px;
+    text-align: center;
+}
+
+button{
+    background-color: #0191fa;
+    border: 0.1px;
+    border-radius: 7%;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    box-shadow: 0px 3px lightblue;
+    height: 32px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (width<=540px){
+    h3{
+        font-size: 25px;
+    }
+}

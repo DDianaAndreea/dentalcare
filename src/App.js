@@ -7,6 +7,7 @@ import Appointement from './components/appointment-section/Appointement';
 import Services from './components/services/Services';
 import Description from './components/description-section/Description';
 import ReviewSection from './components/review-section/ReviewSection';
+import CallToAction from './components/call-to-action-section/CallToAction';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Services />
       <Description />
       <ReviewSection />
+      <CallToAction />
     </div>
   );
 }
